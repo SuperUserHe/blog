@@ -1,0 +1,6 @@
+node_modules/
+# 生产目录
+docs/
+# 开发目录
+.temp/
+*.log
