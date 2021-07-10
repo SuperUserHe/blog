@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>👔CSS sass 入门 | PINEHE-BLOG</title>
+    <meta name="description" content="当我沉默的时候，我觉得很充实，当我开口说话，就感到了空虚。">
+    
+    
+    <link rel="preload" href="/blog/assets/js/vendor.vue.5f1db0b8.js" as="script"><link rel="preload" href="/blog/assets/css/1.styles.62f82482.css" as="style"><link rel="preload" href="/blog/assets/js/vendor.commons.62f82482.js" as="script"><link rel="preload" href="/blog/assets/css/styles.fe65c3d9.css" as="style"><link rel="preload" href="/blog/assets/js/app.fe65c3d9.js" as="script"><link rel="preload" href="/blog/assets/css/styles.fe65c3d9.css" as="style"><link rel="preload" href="/blog/assets/css/8.styles.b27390c7.css" as="style"><link rel="preload" href="/blog/assets/js/8.b27390c7.js" as="script"><link rel="preload" href="/blog/assets/js/22.d2c06802.js" as="script"><link rel="prefetch" href="/blog/assets/css/0.styles.3df2d085.css"><link rel="prefetch" href="/blog/assets/css/4.styles.a55d13b0.css"><link rel="prefetch" href="/blog/assets/css/5.styles.f5cce582.css"><link rel="prefetch" href="/blog/assets/css/6.styles.72588e95.css"><link rel="prefetch" href="/blog/assets/css/7.styles.6c9f8648.css"><link rel="prefetch" href="/blog/assets/js/0.3df2d085.js"><link rel="prefetch" href="/blog/assets/js/10.593b99a1.js"><link rel="prefetch" href="/blog/assets/js/11.5fc3c348.js"><link rel="prefetch" href="/blog/assets/js/12.8523f4b0.js"><link rel="prefetch" href="/blog/assets/js/13.2b0155fa.js"><link rel="prefetch" href="/blog/assets/js/14.4289d8c1.js"><link rel="prefetch" href="/blog/assets/js/15.84b27882.js"><link rel="prefetch" href="/blog/assets/js/16.8c2128b8.js"><link rel="prefetch" href="/blog/assets/js/17.3a1e5861.js"><link rel="prefetch" href="/blog/assets/js/18.1ccb3259.js"><link rel="prefetch" href="/blog/assets/js/19.63af8e22.js"><link rel="prefetch" href="/blog/assets/js/20.e6edaef8.js"><link rel="prefetch" href="/blog/assets/js/21.ed785718.js"><link rel="prefetch" href="/blog/assets/js/23.5325aee8.js"><link rel="prefetch" href="/blog/assets/js/24.dbb5878a.js"><link rel="prefetch" href="/blog/assets/js/25.169bfe23.js"><link rel="prefetch" href="/blog/assets/js/26.23e44f9c.js"><link rel="prefetch" href="/blog/assets/js/27.a32093da.js"><link rel="prefetch" href="/blog/assets/js/28.3b2289e5.js"><link rel="prefetch" href="/blog/assets/js/29.343b0704.js"><link rel="prefetch" href="/blog/assets/js/30.eaccaf93.js"><link rel="prefetch" href="/blog/assets/js/4.a55d13b0.js"><link rel="prefetch" href="/blog/assets/js/5.f5cce582.js"><link rel="prefetch" href="/blog/assets/js/6.72588e95.js"><link rel="prefetch" href="/blog/assets/js/7.6c9f8648.js"><link rel="prefetch" href="/blog/assets/js/9.6f7602a8.js">
+    <link rel="stylesheet" href="/blog/assets/css/1.styles.62f82482.css"><link rel="stylesheet" href="/blog/assets/css/styles.fe65c3d9.css"><link rel="stylesheet" href="/blog/assets/css/styles.fe65c3d9.css"><link rel="stylesheet" href="/blog/assets/css/8.styles.b27390c7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-neon"><header class="header" style="background-size:cover;background-repeat:no-repeat;background-position:center;background-attachment:scroll;background-image:url(https://yz.lol.qq.com/v1/assets/images/bilgewater_serpentisles_03.jpg);" data-v-7ef4a8f4><div data-v-7c9b6a1e data-v-7ef4a8f4><nav class="navbar" data-v-7c9b6a1e><div class="container" data-v-7c9b6a1e><a href="/blog/" class="router-link-active" data-v-7c9b6a1e><span class="navbar-site-name" data-v-7c9b6a1e>
+          PINEHE-BLOG
+        </span></a> <div class="navbar-toggler" data-v-7c9b6a1e><svg class="icon" style="font-size:1.2em;" data-v-7c9b6a1e data-v-7c9b6a1e><title data-v-7c9b6a1e data-v-7c9b6a1e>menu</title><use xlink:href="#icon-menu" data-v-7c9b6a1e data-v-7c9b6a1e></use></svg></div> <div class="navbar-links" data-v-7c9b6a1e><a href="/blog/" class="navbar-link" data-v-7c9b6a1e>
+            Home
+          </a><a href="/blog/posts/" class="navbar-link router-link-active" data-v-7c9b6a1e>
+            Posts
+          </a><a href="/blog/custom-pages/" class="navbar-link" data-v-7c9b6a1e>
+            Custom Pages
+          </a><a href="https://github.com/superuserhe/blog" target="_blank" rel="noopener noreferrer" class="navbar-link" data-v-7c9b6a1e>
+            Github
+          </a></div></div></nav> <div class="navbar-holder" style="display:none;" data-v-7c9b6a1e></div></div> <div class="banner" data-v-e924d6e4 data-v-7ef4a8f4 data-v-7ef4a8f4><div class="container" data-v-e924d6e4><div class="center" data-v-e924d6e4><h1 data-v-e924d6e4 data-v-7ef4a8f4>
+          👔CSS sass 入门
+        </h1></div></div></div></header> <div class="container clearfix show-aside" data-v-2c3a28f0 data-v-2c3a28f0><main class="main" data-v-2c3a28f0><div class="post" data-v-2c3a28f0 data-v-2c3a28f0><section class="post-meta main-div" data-v-1956e4d1><section class="post-date clearfix" data-v-1956e4d1><span class="create-date" data-v-1956e4d1>
+      发布时间 : 2018-03-02
+    </span> <span class="update-date" data-v-1956e4d1>
+      最后修改 : 2019-12-29
+    </span></section> <section class="post-links" data-v-1956e4d1><!----> <a href="/blog/posts/2018/03/04/css-%E6%BB%9A%E5%8A%A8%E8%A7%86%E5%B7%AE.html" class="post-link" data-v-1956e4d1>
+      下一篇 : 👔CSS 滚动视差 background-attachment: scroll || fixed || local || inherit
+    </a></section></section> <article class="main-div"><div class="post-content content default"><h2 id="变量"><a href="#变量" aria-hidden="true" class="header-anchor">#</a> 变量</h2> <h4 id="sass中可以定义变量，方便统一修改和维护。"><a href="#sass中可以定义变量，方便统一修改和维护。" aria-hidden="true" class="header-anchor">#</a> sass中可以定义变量，方便统一修改和维护。</h4> <p>`</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$fontStack</span></span><span class="token punctuation">:</span>    Helvetica, sans-serif<span class="token punctuation">;</span>
+<span class="token property"><span class="token variable">$primaryColor</span></span><span class="token punctuation">:</span> #333<span class="token punctuation">;</span>
+
+<span class="token selector">body </span><span class="token punctuation">{</span>
+<span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token variable">$fontStack</span><span class="token punctuation">;</span>
+<span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">$primaryColor</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">body</span> <span class="token punctuation">{</span>
+<span class="token property">font-family</span><span class="token punctuation">:</span> Helvetica, sans-serif<span class="token punctuation">;</span>
+<span class="token property">color</span><span class="token punctuation">:</span> #333<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="嵌套"><a href="#嵌套" aria-hidden="true" class="header-anchor">#</a> 嵌套</h2> <h4 id="sass可以进行选择器的嵌套，表示层级关系，看起来很优雅整齐。"><a href="#sass可以进行选择器的嵌套，表示层级关系，看起来很优雅整齐。" aria-hidden="true" class="header-anchor">#</a> sass可以进行选择器的嵌套，表示层级关系，看起来很优雅整齐。</h4> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">nav </span><span class="token punctuation">{</span>
+  <span class="token selector">ul </span><span class="token punctuation">{</span>
+      <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">li </span><span class="token punctuation">{</span> <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+  <span class="token selector">a </span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 6px 12px<span class="token punctuation">;</span>
+    <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">nav ul</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">nav li</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">nav a</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 6px 12px<span class="token punctuation">;</span>
+  <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="导入"><a href="#导入" aria-hidden="true" class="header-anchor">#</a> 导入</h2> <h4 id="sass中如导入其他sass文件，最后编译为一个css文件，优于纯css的-import"><a href="#sass中如导入其他sass文件，最后编译为一个css文件，优于纯css的-import" aria-hidden="true" class="header-anchor">#</a> sass中如导入其他sass文件，最后编译为一个css文件，优于纯css的 @import</h4> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// _reset.scss</span>
+
+<span class="token selector">html,
+body,
+ul,
+ol </span><span class="token punctuation">{</span>
+   <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// base.scss </span>
+
+<span class="token keyword">@import</span> <span class="token string">'reset'</span><span class="token punctuation">;</span>
+
+<span class="token selector">body </span><span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 100% Helvetica, sans-serif<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #efefef<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">html, body, ul, ol</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">body</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #efefef<span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 100% Helvetica, sans-serif<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="mixin"><a href="#mixin" aria-hidden="true" class="header-anchor">#</a> mixin</h2> <h4 id="sass中可用mixin定义一些代码片段，且可传参数，方便日后根据需求调用。从此处理css3的前缀兼容轻松便捷。"><a href="#sass中可用mixin定义一些代码片段，且可传参数，方便日后根据需求调用。从此处理css3的前缀兼容轻松便捷。" aria-hidden="true" class="header-anchor">#</a> sass中可用mixin定义一些代码片段，且可传参数，方便日后根据需求调用。从此处理css3的前缀兼容轻松便捷。</h4> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> box-sizing <span class="token punctuation">(</span><span class="token variable">$sizing</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token property">-webkit-box-sizing</span><span class="token punctuation">:</span><span class="token variable">$sizing</span><span class="token punctuation">;</span>     
+       <span class="token property">-moz-box-sizing</span><span class="token punctuation">:</span><span class="token variable">$sizing</span><span class="token punctuation">;</span>
+            <span class="token property">box-sizing</span><span class="token punctuation">:</span><span class="token variable">$sizing</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.box-border</span><span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span>1px solid #ccc<span class="token punctuation">;</span>
+    <span class="token keyword">@include</span> <span class="token function">box-sizing</span><span class="token punctuation">(</span>border-box<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.box-border</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #ccc<span class="token punctuation">;</span>
+  <span class="token property">-webkit-box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+  <span class="token property">-moz-box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+  <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="扩展-继承"><a href="#扩展-继承" aria-hidden="true" class="header-anchor">#</a> 扩展/继承</h2> <h4 id="sass可通过-extend来实现代码组合声明，使代码更加优越简洁。"><a href="#sass可通过-extend来实现代码组合声明，使代码更加优越简洁。" aria-hidden="true" class="header-anchor">#</a> sass可通过 @extend来实现代码组合声明，使代码更加优越简洁。</h4> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">.message </span><span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #ccc<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #333<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.success </span><span class="token punctuation">{</span>
+  <span class="token keyword">@extend</span> .message<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.error </span><span class="token punctuation">{</span>
+  <span class="token keyword">@extend</span> .message<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.warning </span><span class="token punctuation">{</span>
+  <span class="token keyword">@extend</span> .message<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.message, .success, .error, .warning</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #cccccc<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #333<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.success</span> <span class="token punctuation">{</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.error</span> <span class="token punctuation">{</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.warning</span> <span class="token punctuation">{</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="运算"><a href="#运算" aria-hidden="true" class="header-anchor">#</a> 运算</h2> <h4 id="sass可进行简单的加减乘除运算等"><a href="#sass可进行简单的加减乘除运算等" aria-hidden="true" class="header-anchor">#</a> sass可进行简单的加减乘除运算等</h4> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">.container </span><span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+<span class="token selector">article[role=&quot;main&quot;] </span><span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 600px <span class="token operator">/</span> 960px <span class="token operator">*</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">aside[role=&quot;complimentary&quot;] </span><span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 300px <span class="token operator">/</span> 960px <span class="token operator">*</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">article[role=&quot;main&quot;]</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 62.5%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">aside[role=&quot;complimentary&quot;]</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 31.25%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="颜色"><a href="#颜色" aria-hidden="true" class="header-anchor">#</a> 颜色</h2> <h4 id="sass中集成了大量的颜色函数，让变换颜色更加简单。"><a href="#sass中集成了大量的颜色函数，让变换颜色更加简单。" aria-hidden="true" class="header-anchor">#</a> sass中集成了大量的颜色函数，让变换颜色更加简单。</h4> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$linkColor</span></span><span class="token punctuation">:</span> #08c<span class="token punctuation">;</span>
+<span class="token selector">a </span><span class="token punctuation">{</span>
+    <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span><span class="token variable">$linkColor</span><span class="token punctuation">;</span>
+    <span class="token selector"><span class="token parent important">&amp;</span>:hover</span><span class="token punctuation">{</span>
+      <span class="token property">color</span><span class="token punctuation">:</span><span class="token function">darken</span><span class="token punctuation">(</span><span class="token variable">$linkColor</span>,10%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">a</span> <span class="token punctuation">{</span>
+  <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #0088cc<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">a:hover</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #006699<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p></p><div class="table-of-contents"><ul><li><a href="#变量">变量</a></li><li><a href="#嵌套">嵌套</a></li><li><a href="#导入">导入</a></li><li><a href="#mixin">mixin</a></li><li><a href="#扩展-继承">扩展/继承</a></li><li><a href="#运算">运算</a></li><li><a href="#颜色">颜色</a></li></ul></div><p></p> <p><a href="https://www.sass.hk/guide/" target="_blank" rel="noopener noreferrer">Sass中文网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div></article> <section class="post-meta main-div" data-v-1956e4d1><section class="post-date clearfix" data-v-1956e4d1><span class="create-date" data-v-1956e4d1>
+      发布时间 : 2018-03-02
+    </span> <span class="update-date" data-v-1956e4d1>
+      最后修改 : 2019-12-29
+    </span></section> <section class="post-links" data-v-1956e4d1><!----> <a href="/blog/posts/2018/03/04/css-%E6%BB%9A%E5%8A%A8%E8%A7%86%E5%B7%AE.html" class="post-link" data-v-1956e4d1>
+      下一篇 : 👔CSS 滚动视差 background-attachment: scroll || fixed || local || inherit
+    </a></section></section> <div id="post-comments" class="main-div"><!----></div></div></main> <aside class="aside" data-v-2c3a28f0><div class="info-card main-div" data-v-6ed40700 data-v-2c3a28f0><div class="info-card-header" data-v-6ed40700><img src="/blog/assets/img/pine.jpg" alt="pineHe" class="info-avatar" data-v-6ed40700></div> <div class="info-card-body" data-v-6ed40700><section class="info-nickname" data-v-6ed40700>
+      pineHe
+    </section> <section class="info-desc" data-v-6ed40700>Happy Coding<br/>Happy Life</section> <section class="info-contact" data-v-6ed40700><section data-v-6ed40700><span title="Shen'zhen City, China" data-v-6ed40700 data-v-6ed40700><svg class="icon" style="font-size:1em;" data-v-6ed40700 data-v-6ed40700><title data-v-6ed40700 data-v-6ed40700>Shen'zhen City, China</title><use xlink:href="#icon-location" data-v-6ed40700 data-v-6ed40700></use></svg><span class="info-text" data-v-6ed40700 data-v-6ed40700>
+          Shen'zhen City, China
+        </span></span></section> <section data-v-6ed40700><span title="Shen'zhen Private Enterprise" data-v-6ed40700 data-v-6ed40700><svg class="icon" style="font-size:1em;" data-v-6ed40700 data-v-6ed40700><title data-v-6ed40700 data-v-6ed40700>Shen'zhen Private Enterprise</title><use xlink:href="#icon-organization" data-v-6ed40700 data-v-6ed40700></use></svg><span class="info-text" data-v-6ed40700 data-v-6ed40700>
+          Shen'zhen Private Enterprise
+        </span></span></section> <section data-v-6ed40700><a href="mailto:jsonHe557@163.com" title="jsonHe557@163.com" data-v-6ed40700 data-v-6ed40700><svg class="icon" style="font-size:1em;" data-v-6ed40700 data-v-6ed40700><title data-v-6ed40700 data-v-6ed40700>jsonHe557@163.com</title><use xlink:href="#icon-email" data-v-6ed40700 data-v-6ed40700></use></svg><span class="info-text" data-v-6ed40700 data-v-6ed40700>
+          jsonHe557@163.com
+        </span></a></section></section></div> <div class="info-card-footer" data-v-6ed40700><section class="info-sns clearfix" data-v-6ed40700><a href="https://github.com/superuserhe/blog" target="_blank" class="sns-link" data-v-6ed40700><span title="GitHub: superuserhe" class="sns-icon" data-v-6ed40700 data-v-6ed40700><svg class="icon" style="font-size:1.5em;" data-v-6ed40700 data-v-6ed40700><title data-v-6ed40700 data-v-6ed40700>GitHub: superuserhe</title><use xlink:href="#icon-github" data-v-6ed40700 data-v-6ed40700></use></svg></span></a></section></div></div> <div class="post-nav-card main-div" style="position:relative;top:0;width:0px;" data-v-2c3a28f0><div class="post-nav-contents"><svg class="icon"><title>book</title><use xlink:href="#icon-book"></use></svg> <span>文章目录</span> <div class="post-nav-toc"><ul><li><a href="/blog/posts/2018/03/02/css-sass.html#变量">变量</a></li><li><a href="/blog/posts/2018/03/02/css-sass.html#嵌套">嵌套</a></li><li><a href="/blog/posts/2018/03/02/css-sass.html#导入">导入</a></li><li><a href="/blog/posts/2018/03/02/css-sass.html#mixin">mixin</a></li><li><a href="/blog/posts/2018/03/02/css-sass.html#扩展-继承">扩展/继承</a></li><li><a href="/blog/posts/2018/03/02/css-sass.html#运算">运算</a></li><li><a href="/blog/posts/2018/03/02/css-sass.html#颜色">颜色</a></li></ul></div></div> <div class="post-nav-comments"><svg class="icon"><title>comment</title><use xlink:href="#icon-comment"></use></svg> <a href="/blog/posts/2018/03/02/css-sass.html#post-comments">
+      评论
+    </a></div></div></aside></div> <footer class="footer" data-v-7fbc03fc><p class="sns-links" data-v-7fbc03fc><a href="https://github.com/superuserhe/blog" target="_blank" class="sns-link" data-v-7fbc03fc><span title="GitHub: superuserhe" class="sns-icon" data-v-7fbc03fc data-v-7fbc03fc><svg class="icon" style="font-size:25px;" data-v-7fbc03fc data-v-7fbc03fc><title data-v-7fbc03fc data-v-7fbc03fc>GitHub: superuserhe</title><use xlink:href="#icon-github" data-v-7fbc03fc data-v-7fbc03fc></use></svg></span></a></p> <p data-v-7fbc03fc><span data-v-7fbc03fc>Powered by </span> <a href="https://vuepress.vuejs.org" target="_blank" data-v-7fbc03fc>Vuepress</a></p></footer></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/blog/assets/js/vendor.vue.5f1db0b8.js" defer></script><script src="/blog/assets/js/8.b27390c7.js" defer></script><script src="/blog/assets/js/22.d2c06802.js" defer></script><script src="/blog/assets/js/vendor.commons.62f82482.js" defer></script><script src="/blog/assets/js/app.fe65c3d9.js" defer></script>
+  </body>
+</html>
