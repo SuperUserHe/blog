@@ -2,7 +2,7 @@
   "name": "vuepress-blog",
   "version": "1.0.0-alpha.36",
   "description": "Vuepress blog",
-  "author": "David <david_weiwenwen@163.com>",
+  "author": "pineHe <jsonHe557@163.com.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
@@ -12,15 +12,16 @@
   "homepage": "vuepress-blog",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wenwenwei/blog.git"
+    "url": "git+https://github.com/superuserhe/blog.git"
   },
   "bugs": {
-    "url": "https://github.com/wenwenwei/blog/issues"
+    "url": "https://github.com/superuserhe/blog/issues"
   },
   "scripts": {
     "dev": "vuepress dev src --temp .temp",
     "build": "vuepress build src --dest dist",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md",
+    "d": "bash deploy.sh"
   },
   "peerDependencies": {
     "vuepress": "1.0.0-alpha.48"
