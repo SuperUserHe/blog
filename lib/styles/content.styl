@@ -1,0 +1,102 @@
+@require 'variables'
+
+.content
+  width 100%
+  padding-left 0.2rem
+  line-height 1.65
+  overflow-wrap break-word
+  a:hover
+    text-decoration underline
+  ul, ol
+    padding-left 1.2em
+  img
+    max-width 100%
+  p.demo
+    padding 1rem 1.5rem
+    border 1px solid #ddd
+    border-radius 4px
+  hr
+    display block
+    height 1px
+    border 0
+    border-top 1px solid $borderColor
+    margin 1.2rem 0
+    padding 0
+  strong
+    font-weight 600
+  a.header-anchor
+    font-size 0.85em
+    float left
+    margin 0.125em 0 0 -0.85em
+    opacity 0
+    transition all 0.2s
+    &:hover
+      text-decoration none
+  h1, h2, h3, h4, h5, h6
+    margin-top (0.5rem - $navbarHeight)
+    padding-top (1rem + $navbarHeight)
+    &:hover > a.header-anchor
+      opacity 1
+  h1
+    font-size 1.6rem
+    padding-bottom 0.3em
+    margin-bottom 0.5em
+    border-bottom 1px solid $borderColor
+  h2
+    font-size 1.3rem
+    padding-bottom 0.3em
+    margin-bottom 0.5em
+    border-bottom 1px solid $borderColor
+  h3
+    font-size 1.1rem
+  h4, h5, h6
+    font-size 1rem
+  code, kbd
+    font-family fira code, Consolas, Monaco, Andale Mono, Ubuntu Mono, source-code-pro, Menlo, Consolas, "Courier New", monospace
+    // background rgba(0,255,255,0)
+    // text-shadow 0px 0px 20px
+    background-color: #fff5f5;
+    color: #ff502c;
+    font-size: .87em;
+    padding: .065em .4em;
+  blockquote
+    padding 0 1em
+    color #6a737d
+    border-left 0.25em solid #dfe2e5
+    margin-left 0
+    >:first-child
+      margin-top 0
+    >:last-child
+      margin-bottom 0
+  table
+    max-width 100%
+    border-collapse collapse
+    margin 1rem 0
+
+  tr
+    border-top 1px solid #dfe2e5
+    &:nth-child(2n)
+      background-color #f6f8fa
+
+  th, td
+    border 1px solid #dfe2e5
+    padding .6em 1em
+
+  pre[class*="language-"] 
+    padding: 4em 1.5em 1.5em
+    code:before 
+      position: absolute;
+      top: 16px;
+      left: 18px;
+      content: "";
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background-color: #ff5f56;
+      box-shadow: 18px 0 0 0 #ffbd2e, 36px 0 0 0 #27c93f
+      
+.post-nav-card 
+  overflow-y auto
+  max-height 80vh
+  a
+    font-size 14px

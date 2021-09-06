@@ -1,0 +1,48 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0-alpha.36",
+  "description": "Vuepress blog",
+  "author": "pineHe <jsonHe557@163.com.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "vuepress",
+    "theme"
+  ],
+  "homepage": "vuepress-blog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superuserhe/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/superuserhe/blog/issues"
+  },
+  "scripts": {
+    "dev": "vuepress dev src --temp .temp",
+    "build": "vuepress build src --dest dist",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md",
+    "d": "bash deploy.sh"
+  },
+  "peerDependencies": {
+    "vuepress": "1.0.0-alpha.48"
+  },
+  "dependencies": {
+    "@vssue/vuepress-plugin-vssue": "^0.8.1",
+    "@vue/babel-preset-jsx": "^1.0.0-beta.2",
+    "@vuepress/plugin-back-to-top": "1.0.0-alpha.44",
+    "@vuepress/plugin-google-analytics": "1.0.0-alpha.44",
+    "date-fns": "^1.30.1",
+    "geopattern": "^1.2.3",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "vuepress-plugin-container": "^1.1.1",
+    "vuepress-plugin-nprogress": "^1.1.0",
+    "vuepress-plugin-smooth-scroll": "^0.0.3",
+    "vuepress-plugin-table-of-contents": "^1.0.0",
+    "vuepress-plugin-zooming": "^1.0.0"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.12",
+    "vuepress": "1.0.0-alpha.48"
+  }
+}
