@@ -9,7 +9,7 @@ curTime=$(date "+%Y-%m-%d/%H:%M:%S")
 
 git commit -m "A Rich and Meaningful Day 📝"$curTime
 
-git push origin master
+git push origin gh-pages
 
 # 生成静态文件
 yarn run build
